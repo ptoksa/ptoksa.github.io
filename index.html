@@ -2,88 +2,139 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cute Monsters Escort Service</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-        	background-image: url('background.jpg'); /* Replace 'background.jpg' with the actual filename or path of your image */
-        	background-size: cover;
-        	background-position: center;
-        	background-repeat: no-repeat;
-        	color: #333;
-        	margin: 0;
-        	padding: 0;
-        }
-
-        header {
-            background-color: #413f41;
-            color: #fff;
-            text-align: center;
-            padding: 1em;
-        }
-
-        section {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        h1,
-        h2,
-        h3 {
-            color: #f872d7;
-        }
-
-        p {
-            line-height: 1.6;
-        }
-
-        footer {
-            background-color: #f872d7;
-            color: #fff;
-            text-align: center;
-            padding: 1em;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+  <title>CUTE MONSTERS ESCORT SERVICE</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <!-- Navbar -->
+  <div class="w3-top w3-center">
+    <div class="w3-bar w3-black w3-card">
+      <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)"
+        onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+      <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">US</a>
+      <a href="#releases" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RELEASES</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+      <!--<div class="w3-dropdown-hover w3-hide-small"></div>-->
+    </div>
+  </div>
+  <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+  <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">US</a>
+    <a href="#releases" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">RELEASES</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  </div>
+  <div class="aside-container">
+    <aside id="news-section">
+      <a href="#news" class="w3-bar-item w3-hover-opacity w3-padding-large border-container">
+        <img src="images/CMES_logo.png" alt="CMES_Logo" width="150px" height="75px" />
+      </a>
+    </aside>
+  </div>
+  <!-- Page content -->
+  <div id="main-content" class="w3-content" style="max-width:2000px;margin-top:0px">
+    <!-- The Media Section-->
+    <div class="w3-container w3-content w3-center" style="max-width:800px" id="media">
+      <div class="border-container w3-padding-16 w3-center w3-xlarge">
+        <a target="_blank" rel="noopener noreferrer"
+          href="https://www.facebook.com/p/Cute-Monsters-Escort-Service-100063676275911/?locale=fi_FI"
+          class="fa fa-facebook-official w3-hover-opacity"></a>
+        <a target="_blank" rel="noopener noreferrer"
+          href="https://www.youtube.com/channel/UCQwoLMMCS8iTObXYAlCkyHA/playlists"
+          class="fa fa-youtube-play w3-hover-opacity"></a>
+        <a target="_blank" rel="noopener noreferrer"
+          href="https://cutemonstersescortservice.bandcamp.com/album/circling-over-hippocampus"
+          class="fa fa-bandcamp w3-hover-opacity"></a>
+        <a target="_blank" rel="noopener noreferrer"
+          href="https://www.amazon.co.uk/music/player/artists/B09ZKFCWLB/cute-monsters-escort-service"
+          class="fa fa-amazon w3-hover-opacity"></a>
+        <a target="_blank" rel="noopener noreferrer"
+          href="https://www.discogs.com/artist/8117216-Cute-Monsters-Escort-Service?type=Releases&subtype=Albums&filter_anv=0e">
+          <img src="images/discogs.svg" style="width:17px" class="w3-hover-opacity discogs"></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.reverbnation.com/cutemonstersescortservice">
+          <img src="images/reverbnation.png" style="width:50px" class="w3-hover-opacity reverbnation"></a>
+      </div>
+    </div>
+    <!--<hr>-->
+    <!--Tha Band Section-->
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
 
-    <header>
-        <h1>Cute Monsters Escort Service Test Page</h1>
-    </header>
-
-    <section>
-        <h2>About Us</h2>
-        <p>Welcome to Cute Monsters Escort Service,
-            where music meets madcap magic! We are a band dedicated to creating musical
-            experiences with a touch of whimsy. We hope that we leave you with a smile.</p>
-    </section>
-
-    <section>
-        <h2>Upcoming Events</h2>
-        <p>Stay tuned for our upcoming events and performances. Join us for a musical journey filled
-            with joy and laughter!</p>
-    </section>
-
-    <section>
-        <h2>Listen to Our Music</h2>
-        <p>Check out our latest tracks and albums on your favorite music platforms. Let the melodies brighten your day!
+      <img src="images/poster_blank.png" class="" alt="CMES Poster" style="width:100%">
+      <!--<img src="images/biography.jpg" class="" alt="CMES Biography" style="width:100%">-->
+      <!--<h2 class="w3-wide border-container"><b>CUTE MONSTERS ESCORT SERVICE</b></h2>-->
+      <!--<p style="color: rgb(1, 34, 1)" class="w3-justify w3-padding w3-white w3-text-black">Cute Monsters Escort
+        Service is a musical collective consisting of
+        Janne, Tuikku, and Petri. Formed with the shared
+        passion for creating music that resonates with joy and positivity, we aim to leave our listeners with a
+        contagious smile. Join us on a musical journey filled with creativity, laughter, and a touch of
+        whimsical charm.</p>-->
+      <div class="w3-row w3-padding-32">
+        <img src="images/CMES_WEB.jpg" class="" alt="CMES" style="width:100%">
+      </div>
+    </div>
+  </div>
+  <!-- Releases Section -->
+  <div class="w3-container w3-content w3-center w3-padding-32" style="max-width:800px" id="releases">
+    <h2 class="w3-wide border-container"><b>RELEASES</b></h2><br>
+    <div class="w3-padding-24 border-container2">
+      <img src="images/cmes.png" alt="CMES_Circling_Over_Hippocampus" width="150px" height="150px" data-zoomable />
+      <a target="_blank" rel="noopener noreferrer"
+        href="https://cutemonstersescortservice.bandcamp.com/album/circling-over-hippocampus"><br>
+        <p class="w3-hover-opacity" style="color: rgb(71, 4, 4);"><b>Cute Monsters Escort Service</b><br>"Circling
+          Over Hippocampus CD"<br> © & ℗ Petri Oksa / Rectangle Moon 2020
         </p>
-        <!-- Add links to your music platforms here -->
-    </section>
-
-    <footer>
-        <p>&copy; 2023 Cute Monsters Escort Service. All rights reserved. | Website by Petri Oksa</p>
-    </footer>
-
+      </a>
+    </div><br><br>
+    <iframe width="420" height="345" src="https://www.youtube.com/embed/lD8iK4sv_ro">
+    </iframe>
+  </div>
+  <!--Contact Centering-->
+  <div class="w3-container w3-content w3-center w3-padding-32" style="max-width:800px" id="contact">
+    <!-- The Contact Section -->
+    <div class="border-container w3-padding-32" style="max-width:800px; margin: 0 auto;">
+      <h2 class="w3-wide"><b>CONTACT</b></h2>
+      <div class="w3-large w3-justify">
+        <i class="fa fa-envelope" style="width:30px"></i>cutemonstersescortservice@yahoo.com<br>
+        <i class="fa fa-map-marker" style="width:30px"></i>Pori, FIN<br>
+      </div>
+    </div>
+    <div class="w3-container w3-content w3-center w3-padding-32" style="max-width:800px" id="contact"></div>
+    <!-- End Page Content -->
+    <footer></footer>
+    <div class="w3-container w3-content w3-center w3-padding-32" style="max-width:800px" id="contact"></div>
+    <p class="w3-medium border-container">Powered by <a href="https://www.w3schools.com/w3css/default.asp"
+        target="_blank">w3.css</a></p>
+    <!-- Sidebar -->
+    <div class="sidebar" id="mySidebar">
+      <!-- Close button -->
+      <button class="closebtn" onclick="closeSidebar()">&times;</button>
+      <a href="#news-section">NEWS</a>
+      <article><b style="color: rgb(253, 228, 4);"><u class="news">March 21, 2024</u></b><br>Ask for "Circling Over
+        Hippocampus" CD
+        Album, few albums left!<br></article>
+      <p><b style="color: aliceblue;">...</b><br>Stay tuned for our latest updates!</p>
+      <a href="#comment">GUEST BOOK</a>
+      <!-- Fan Comments Section -->
+      <div class="fan-comments">
+        <div id="comments"></div>
+        <form id="comment-form">
+          <label for="name">Your Name</label><br>
+          <input type="text" id="name" name="name"><br>
+          <label for="comment">Leave your comment</label><br>
+          <textarea id="comment" name="comment" rows="4" cols="30"></textarea><br>
+          <button id="button" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src=codes.js></script>
 </body>
 
 </html>
